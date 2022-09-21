@@ -51,7 +51,11 @@ ol{
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    outline: 2px solid tomato;
+    /*outline: 2px solid tomato;*/
+}
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 img{
@@ -192,10 +196,7 @@ button{
 }
 
 /*                                            секція "Переваги"  */
-.benefits{
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
+
 
 .benefits .title{
     margin-bottom: 10px;
@@ -236,10 +237,7 @@ button{
 /*                                            секція "Наша команда"   */
 
 .team{
-    padding-top: 94px;
-    padding-bottom: 94px;
-
-    background-color: var(--secondary-fon-color);
+       background-color: var(--secondary-fon-color);
 }
 
 .team-title{
@@ -325,11 +323,6 @@ button{
 
 /*                                       секція "Портфоліо"  */
 
-
-.portfolio{
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
 .filtr-btn {
     margin: 0 auto;
     padding: 6px 22px;
