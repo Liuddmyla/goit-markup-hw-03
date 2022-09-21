@@ -129,7 +129,24 @@ button{
 .contact-link:focus{
     color: var(--contrast-color);
 }
-    
+.header-nav{
+    display: flex;
+    margin-left: 93px;
+}
+.header-nav .header-item+.header-item{
+    margin-left: 50px;
+}
+.header-list .header-item+.header-item {
+    margin-left: 50px;
+}
+.main-nav{
+    display: flex;
+    align-items: center;
+}
+ .header-list{
+    display: flex;
+    margin-left: auto;
+ }   
 /*                                                  секція "Герой"  */
 
 .hero{
@@ -193,6 +210,12 @@ button{
     line-height: 1.71;
     color: var(--text-color);
 }
+.benefits-list{
+    display: flex;
+}
+.benefits-list .benefits-item + .benefits-item{
+    margin-left: 30px;
+}
 
 /*                                            секція "Чим ми займаємося"  */
 .work{
@@ -204,6 +227,10 @@ button{
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
+}
+.work-list{
+    display: flex;
+    justify-content: space-between;
 }
 
 /*                                            секція "Наша команда"   */
@@ -245,6 +272,10 @@ button{
     background-color: var(--secondary-color);
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.team-list{
+    display: flex;
+    justify-content: space-between;
 }
 
 /*                                            Футер  */
@@ -321,9 +352,16 @@ button{
     background-color: var(--contrast-color);
     color: var(--secondary-color);
 }
+.filtr{
+    display: flex;
+    justify-content: center;
+}
+.filtr .filtr-item + .filtr-item{
+    margin-left: 8px;
+}
 
 .portfolio-item{
-    background-color: var(--secondary-color);
+        background-color: var(--secondary-color);
 }
 
 .portfolio-item .title{
@@ -342,6 +380,9 @@ button{
 }
 
 .portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     margin-top: 50px;
 }
 .container-portfolio{
@@ -349,4 +390,6 @@ button{
     padding: 20px 24px;
     border: 1px solid #EEEEEE;
 }
-
+.portfolio-item:nth-child(n+4) {
+    margin-top: 30px;
+}
